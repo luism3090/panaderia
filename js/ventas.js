@@ -11,6 +11,8 @@ $(document).on('ready',function()
 	{
 		var fechaventa = $("#txtFechaVenta").val();
 
+		$("#btnGuardarVenta").prop("disabled",false);
+
 		if(fechaventa == "")
 		{
 			$('#modalAlertaWarning .modal-body .mldMsj').text("Debe seleccionar la fecha");
@@ -177,6 +179,8 @@ $(document).on('ready',function()
 							 	fecha: $("#txtFechaVenta").val(),
 							 	id_fecha: $("#txtFechaVenta").attr("data-id-fecha")
 							}
+
+							$("#btnGuardarVenta").prop("disabled",true);
 
 							$.ajax(
 					               {
