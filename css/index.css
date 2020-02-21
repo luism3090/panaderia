@@ -1,0 +1,77 @@
+  .background{
+    height: 100vh;
+  width: 100%;
+ text-align: center;
+  position: relative;
+  }
+
+#footer{
+  text-align: center;
+  background-color: rgba( 10, 77, 255, 0.7 );
+}
+
+.formulario{
+  border-radius: 10px ;
+height: 24%;
+ margin-top: 125px;
+background-position: relative;
+  
+}
+
+.bg-primary
+{
+    background: #007bff !important;
+    height: 85px;
+}
+
+
+.logo{
+    float: right;
+    margin: 9px;
+}
+
+.navbar-brand{
+    color: white;
+    margin-top: 17px;
+}
+
+.content{
+    margin: -19px;
+}
+
+#footer
+{
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+#footer a
+{
+    color: black;
+}
+
+/*icons*/
+
+.fa-check-circle{
+  color:green;
+}
+
+.fa-exclamation-circle{
+  color:orange;
+}
+
+.fa-times{
+  color:red;
+}
+
+.mldMsj{
+  margin: 10px 10px;
+}
+
+
+/*tamano modales*/
+
+.modal-content{
+  width: 115%;
+    margin: 0px -35px;
+}

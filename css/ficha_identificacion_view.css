@@ -1,0 +1,82 @@
+.acompanante {
+	margin-top: -15px;
+}
+
+  .background{
+    height: 100vh;
+  width: 100%;
+ text-align: center;
+  position: relative;
+  }
+
+#footer{
+  text-align: center;
+  background-color: rgba( 10, 77, 255, 0.7 );
+}
+
+.bg-primary{
+   background-color: #007bff !important;
+   color: white;
+   height: 55px;
+}
+
+.bg-primary a{
+   color: white;
+   font-size: 16px;
+   
+
+}
+
+.navbar-brand{
+     font-size: 20px !important;
+     margin-top: 1px;
+}
+
+.navbar-collapse ul li{
+     margin-left: 30px;
+
+}
+
+.navbar-collapse ul {
+     
+     list-style: none;
+     margin: 16px -50px !important;
+}
+
+.navbar-collapse ul li a{
+     text-decoration: none;
+}
+
+.navbar-collapse ul li a:hover{
+     font-weight: bold;
+}
+
+.navbar-collapse ul .active a{
+     text-decoration: underline;
+}
+
+/*icons*/
+
+.fa-check-circle{
+  color:green;
+}
+
+.fa-exclamation-circle{
+  color:orange;
+}
+
+.fa-times{
+  color:red;
+}
+
+.mldMsj{
+  margin: 10px 10px;
+}
+
+
+/*tamano modales*/
+
+.modal-content{
+  width: 115%;
+    margin: 0px -35px;
+}
